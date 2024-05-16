@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Sooand\Dux\Commands\DuxCommand;
+use Sooand\Dux\Testing\TestsDux;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Sooand\Dux\Commands\DuxCommand;
-use Sooand\Dux\Testing\TestsDux;
 
 class DuxServiceProvider extends PackageServiceProvider
 {
