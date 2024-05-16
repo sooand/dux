@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Sooand\Dux\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DuxCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'dux';
 
     public $description = 'My command';
 
